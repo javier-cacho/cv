@@ -1,0 +1,149 @@
+{
+  "basics": {
+    "name": "Javier Cacho",
+    "label": "Full Stack Developer",
+    "picture": "../resources/JavierCachoBlack.png",
+    "email": "jjaviercacho@gmail.com",
+    "phone": "+31 (0) 616 210 209",
+    "website": "",
+    "summary": "Full Stack Developer with expertise both in backend with .NET and frontend React, working with the cutting edge technologies and trends in development and engaged with best practices through DevOps",
+    "location": {
+      "address": "Louis Couperusplaats 223",
+      "postalCode": "2903 XE",
+      "city": "Capelle aan den IJssel",
+      "countryCode": "NE",
+      "region": "Europe"
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Every Angle - Magnitude",
+      "position": "Senior Full Stack Developer",
+      "website": "https://www.everyangle.com/",
+      "startDate": "February 2018",
+      "endDate": "Present day",
+      "summary": "Developing a key product for empower business analyticis for SAP",
+      "highlights": [
+        "Working in a dynamic environment usint Scrum and with the administration done in JIRA",
+        "Developing of Web API backend in C# using .NET 4.5, WebApi 2.0, NUnit and SpecFlow",
+        "Developing of frontend using React with Jest, enzyme, flowtype",
+        "Supporting to testing task with TestRail and Specflow for integration tests",
+        "Working in a continous integration environment with git, VSTS and SonarQube"
+      ]
+    },
+    {
+      "company": "Indra Software Labs - Aktua Project ",
+      "position": "Senior Full Stack Developer",
+      "website": "http: //www.indracompany.com/",
+      "startDate": "January 2016",
+      "endDate": "January 2018",
+      "summary": "Developing and maintaining several .NET applications and SQL ETL processes",
+      "highlights": [
+        "Development and maintenance of .NET multilayered web application in C#, with Linq and Entity Framework",
+        "Development of RESTful API for the multilayered application", 
+        "Development and maintenance of a classic ASP.NET application web application",
+        "Support for a MVC web application",
+        "Development of ETL scripts for data transfer between interrelated systems using SQL Server 2012"
+      ]
+    },
+    {
+      "company": "Indra Software Labs - Gamesa Project ",
+      "position": "Senior Full Stack Developer",
+      "website": "http: //www.indracompany.com/",
+      "startDate": "May 2015",
+      "endDate": "January 2016",
+      "summary": "Developing a .NET application with javascript in the frontend",
+      "highlights": [
+        "Team working with Scrum methodology and JIRA for administration",
+        "Development of a .NET application for handling windfarms, with Unity as IoC, MEF as Service provider and Entity Framework for connecting a lightweight SQLLite database",
+        "Development of the frontend of the application using javascript and JQuery",
+        "Development of windows services serving the application"
+      ]
+    },
+    {
+      "company": "Indra Software Labs - Gamesa Project ",
+      "position": "Senior Full Stack Developer",
+      "website": "http: //www.indracompany.com/",
+      "startDate": "May 2015",
+      "endDate": "January 2016",
+      "summary": "Developing a .NET application with javascript in the frontend",
+      "highlights": [
+        "Team working with Scrum methodology and JIRA for administration",
+        "Development of a .NET application for handling windfarms, with Unity as IoC, MEF as Service provider and Entity Framework for connecting a lightweight SQLLite database",
+        "Development of the frontend of the application using javascript and JQuery",
+        "Development of windows services serving the application"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Salamanca",
+      "area": "Business Administration",
+      "studyType": "Bachelors of Science (Honours)",
+      "startDate": "",
+      "endDate": "February 2005",
+      "gpa": "",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Compression",
+      "level": "Master",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Business level"
+    },
+    {
+      "language":"Spanish",
+      "fluency": "Native speaker"
+    }    
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Running",
+        "Biking"
+      ]
+    },
+    {
+      "name": "Play guitar",
+      "keywords": [
+        "Music"
+      ]
+    }
+  ]
+}
