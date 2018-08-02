@@ -3,7 +3,7 @@
   "info": {
     "label": "Full Stack Developer",
     "image": "../resources/JavierCachoBlack.png",
-    "brief": "Full Stack Developer with expertise both in backend with .NET and frontend React, working with the cutting edge technologies and trends in development and engaged with best practices through DevOps"
+    "brief": "Full Stack Developer with expertise both in backend with .NET and frontend with React, working with the cutting edge technologies and trends in development and engaged with best practices and DevOps"
   },
   "contact": {
     "email": "jjaviercacho@gmail.com",
@@ -89,8 +89,8 @@
       {
         "position": "Programming Analyst and Team Leader",
         "employer": "Colt Technology Services, SAU",
-        "summary": "Development of a MVC application from scratch",
-        "start": "2013-01-01",
+        "summary": "Maintenance of a internal CMDB Web Application and development of a MVC application from scratch",
+        "start": "2011-05-30",
         "end": "2014-07-01",
         "url": "http://www.colt.net",
         "keywords": [],
@@ -98,18 +98,7 @@
           "Requirements gathering and analysis from the stakeholders",
           "Design and Development of a MVC application from scratch using .NET framework, with SQL Server 2008 as database and  Entity Framework, Razor and C#",
           "Frontend development with HTML5, CSS3 and JQuery",
-          "Team Leader for a small team"
-        ]
-      },
-      {
-        "position": "Programming Analyst and Team Leader",
-        "employer": "Colt Technology Services, SAU",
-        "summary": "Developing and maintaining several .NET applications and SQL ETL processes",
-        "start": "2011-05-30",
-        "end": "2014-07-01",
-        "url": "http://www.colt.net",
-        "keywords": [],
-        "highlights": [
+          "Team Leader for a small team",
           "Development and maintenancde of an internal CMDB system using .NET ans SQL Server",
           "Architectonic design and implementation of the development environment including the Version Control System –Subversion",
           "Worked with an international team for integrating the system with Oracle-Siebel",
@@ -133,40 +122,61 @@
     ]
   },
   "education": {
-    "level": "",
+    "level": "Bachelors of Science (Honours)",
     "history": [
       {
         "institution": "University of Salamanca",
-        "start": "",
-        "end": "2012-06-01",
+        "title":"BSc (Hons) in Business Administration",
+        "start": "2003-09",
+        "end": "2005-02",
+        "url":"http: //www.usal.es/en",
         "grade": "",
         "curriculum": [],
         "summary": "",
-        "area": "Diplomatura (3-Year Degree) in Business",
-        "studyType": "Bachelors of Science (Honours)"
-      },
-      {
-        "institution": "",
-        "start": "",
-        "end": "2012-06-01",
-        "grade": "",
-        "curriculum": [],
-        "summary": "",
-        "area": "",
-        "studyType": "Other Courses"
+        "area": "Business",
+        "studyType": ""
       },
       {
         "institution": "University of Salamanca",
-        "start": "",
-        "end": "2005-02-01",
-        "grade": "",
+        "url": "http: //www.usal.es/en",
+        "title":"3-Year Degree in Business",
+        "start": "2000-09",
+        "end": "2002-06",
+        "grade":"",
         "curriculum": [],
         "summary": "",
         "area": "Business Administration",
-        "studyType": "Bachelors of Science (Honours)"
+        "studyType": ""
       }
     ]
   },
+  "extracurricular": [
+    {
+      "title": "",
+      "activity": "Oracle Database 11g: Performance Tuning",
+      "start": "2016-11",
+      "end": "2016-11"
+    },
+    {
+      "title": "",
+      "activity": "Development and design of Android applications",
+      "start": "2012-12",
+      "end": "2013-06"
+    },
+    {
+      "title": "",
+      "activity": "Java Programmer and Application Developer",
+      "start": "2010-12",
+      "end": "2011-05"
+    },
+    {
+      "title": "",
+      "activity": "Programming Analyst",
+      "start": "2009-09",
+      "end": "2010-02"
+    }
+  ]
+  ,
   "skills": {
     "sets": [
       {
