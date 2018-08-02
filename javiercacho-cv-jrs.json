@@ -1,0 +1,238 @@
+{
+  "basics": {
+    "label": "Full Stack Developer",
+    "email": "jjaviercacho@gmail.com",
+    "phone": "+31 (0) 616 210 209",
+    "website": "",
+    "name": "Javier Cacho",
+    "summary": "Full Stack Developer with expertise both in backend with .NET and frontend with React, working with the cutting edge technologies and trends in development and engaged with best practices and DevOps",
+    "picture": "../resources/JavierCachoBlack.png",
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Every Angle - Magnitude",
+      "website": "https://www.everyangle.com/",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2018-02-26",
+      "endDate": "",
+      "summary": "Developing a key product for empower business analyticis for SAP",
+      "highlights": [
+        "Working in a dynamic environment usint Scrum and with the administration done in JIRA",
+        "Developing of Web API backend in C# using .NET 4.5, WebApi 2.0, NUnit and SpecFlow",
+        "Developing of frontend using React with Jest, enzyme, flowtype",
+        "Supporting to testing task with TestRail and Specflow for integration tests",
+        "Working in a continous integration environment with git, VSTS and SonarQube"
+      ]
+    },
+    {
+      "company": "Indra Software Labs - Aktua Project",
+      "website": "http: //www.indracompany.com/",
+      "position": "Senior Full Stack Developer and Team Leader",
+      "startDate": "2016-01-01",
+      "endDate": "2018-02-10",
+      "summary": "Developing and maintaining several .NET applications and SQL ETL processes",
+      "highlights": [
+        "Working as a Team Leader for a small team",
+        "Development and maintenance of .NET multilayered web application in C#, with Linq and Entity Framework",
+        "Development of RESTful API for the multilayered application",
+        "Development and maintenance of a classic ASP.NET application web application",
+        "Support for a MVC web application",
+        "Development of ETL scripts for data transfer between interrelated systems using SQL Server 2012"
+      ]
+    },
+    {
+      "company": "Indra Software Labs - Gamesa Project",
+      "website": "http: //www.indracompany.com/",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2015-05-04",
+      "endDate": "2016-01-01",
+      "summary": "Developing a .NET application with javascript in the frontend",
+      "highlights": [
+        "Team working with Scrum methodology and JIRA for administration",
+        "Development of a .NET application for handling windfarms, with Unity as IoC, MEF as Service provider and Entity Framework for connecting a lightweight SQLLite database",
+        "Development of the frontend of the application using javascript and JQuery",
+        "Development of windows services serving the application"
+      ]
+    },
+    {
+      "company": "Ria Financial Services, SAU",
+      "website": "http://www.riafinancial.com",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2015-02-01",
+      "endDate": "2015-05-01",
+      "summary": "Data analytics and .NET support",
+      "highlights": [
+        "Development for automatically generate an incentive policy from specific parameters.",
+        "Support of a Web API for serve content",
+        "Support of an MVC application"
+      ]
+    },
+    {
+      "company": "Colt Technology Services, SAU",
+      "website": "http://www.colt.net",
+      "position": "Programming Analyst and Team Leader",
+      "startDate": "2013-01-01",
+      "endDate": "2014-07-01",
+      "summary": "Development of a MVC application from scratch",
+      "highlights": [
+        "Requirements gathering and analysis from the stakeholders",
+        "Design and Development of a MVC application from scratch using .NET framework, with SQL Server 2008 as database and  Entity Framework, Razor and C#",
+        "Frontend development with HTML5, CSS3 and JQuery",
+        "Team Leader for a small team"
+      ]
+    },
+    {
+      "company": "Colt Technology Services, SAU",
+      "website": "http://www.colt.net",
+      "position": "Programming Analyst and Team Leader",
+      "startDate": "2011-05-30",
+      "endDate": "2014-07-01",
+      "summary": "Developing and maintaining several .NET applications and SQL ETL processes",
+      "highlights": [
+        "Development and maintenancde of an internal CMDB system using .NET ans SQL Server",
+        "Architectonic design and implementation of the development environment including the Version Control System –Subversion",
+        "Worked with an international team for integrating the system with Oracle-Siebel",
+        "Support to Business creating customize reports through reporting services"
+      ]
+    },
+    {
+      "company": "12 de Octubre Hospital",
+      "website": "http://www.colt.net",
+      "position": "Programming Analyst",
+      "startDate": "2010-12-01",
+      "endDate": "2011-06-01",
+      "summary": "Freelance Programmer Analyst, I took care of requirements elicitation, data model design and first iteration development for a clinical research named NEDICES2",
+      "highlights": [
+        "Requirements specification, analysis and design of a survey application for Clinical Research",
+        "Prototype Proposal together with web hosting solution",
+        "Support for a client solution"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Salamanca",
+      "gpa": "",
+      "courses": [],
+      "startDate": "2003-09",
+      "endDate": "2005-02",
+      "area": "Business Administration",
+      "studyType": "Bachelors of Science (Honours)"
+    },
+    {
+      "institution": "University of Salamanca",
+      "gpa": "",
+      "courses": [],
+      "startDate": "2000-09",
+      "endDate": "2002-06",
+      "area": "Business Administration",
+      "studyType": "3-Year Degree"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend development",
+      "level": "Master",
+      "keywords": [
+        ".NET",
+        "C#",
+        "Linq",
+        "Entity Framework",
+        "MVC",
+        "WebApi",
+        "NUnit",
+        "Specflow"
+      ]
+    },
+    {
+      "name": "Frontend development",
+      "level": "Master",
+      "keywords": [
+        "React",
+        "Jest",
+        "enzyme",
+        "Formik",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "JQuery",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Master",
+      "keywords": [
+        "T-SQL",
+        "PL-SQL",
+        "SQL Server",
+        "Oracle"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "git",
+        "Subversion",
+        "VSTS",
+        "SonarQube"
+      ]
+    },
+    {
+      "name": "Methodologies",
+      "level": "Advanced",
+      "keywords": [
+        "Scrum",
+        "Kamban",
+        "JIRA"
+      ]
+    },
+    {
+      "name": "IDEs",
+      "level": "Master",
+      "keywords": [
+        "Visual Studio",
+        "Visual Studio Code",
+        "Eclipse"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Running",
+        "Biking"
+      ]
+    },
+    {
+      "name": "Play guitar",
+      "keywords": [
+        "Music"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Business level"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ]
+}
