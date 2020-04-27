@@ -3,11 +3,11 @@
   "info": {
     "label": "Full Stack Developer",
     "image": "../resources/JavierCachoBlack.png",
-    "brief": "Full Stack Developer with expertise both in backend with .NET and frontend with React, working with the cutting edge technologies and trends in development and engaged with best practices and DevOps"
+    "brief": "Full Stack .NET Developer with expertise going through the DevOps path with cloud skills in Azure."
   },
   "contact": {
     "email": "jjaviercacho@gmail.com",
-    "phone": "+31 (0) 616 210 209",
+    "phone": "+34 655 280 032",
     "website": ""
   },
   "meta": {
@@ -171,37 +171,31 @@
   },
   "extracurricular": [
     {
-      "title": "",
       "activity": "Azure AZ-203/204 training",
       "start": "2020-04",
       "end": "2016-04"
     },
     {
-      "title": "",
       "activity": "Agile training",
       "start": "2019-06",
       "end": "2019-06"
     },
     {
-      "title": "",
       "activity": "Oracle Database 11g: Performance Tuning",
       "start": "2016-11",
       "end": "2016-11"
     },
     {
-      "title": "",
       "activity": "Development and design of Android applications",
       "start": "2012-12",
       "end": "2013-06"
     },
     {
-      "title": "",
       "activity": "Java Programmer and Application Developer",
       "start": "2010-12",
       "end": "2011-05"
     },
     {
-      "title": "",
       "activity": "Programming Analyst",
       "start": "2009-09",
       "end": "2010-02"
