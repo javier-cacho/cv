@@ -25,6 +25,25 @@
     "history": [
       {
         "position": "Senior Full Stack Developer",
+        "employer": "Sunweb",
+        "summary": "Developing backoffice applications on the Azure cloud for one of the main European touroperators",
+        "current": true,
+        "start": "2018-02-26",
+        "end": "",
+        "url": "https://www.sunwebgroup.com/about-us/",
+        "keywords": [],
+        "highlights": [
+          "Developing microservices communicating through Azure Service Bus using dotnet core 3.1, XUnit and SpecFlow",          
+          "Developing of frontend using Angular, and Stencil (Web Components)",
+          "Maintainance of some of the build pipelines in Azure DevOps",
+          "Maintainance of the build pipelines in Team City and the deployment with Octopus",
+          "Creation of ARM templates for Azure services",
+          "Monitoring cloud services using New Relic and Kibana",
+          "Working with an Agile methodology using JIRA"
+        ]
+      },
+      {
+        "position": "Senior Full Stack Developer",
         "employer": "Every Angle - Magnitude",
         "summary": "Developing a key product for empower business analyticis for SAP",
         "current": true,
@@ -34,9 +53,9 @@
         "keywords": [],
         "highlights": [
           "Working in a dynamic environment usint Scrum and with the administration done in JIRA",
-          "Developing of Web API backend in C# using .NET 4.5, WebApi 2.0, NUnit and SpecFlow",
-          "Developing of frontend using React with Jest, enzyme, flowtype",
-          "Supporting to testing task with TestRail and Specflow for integration tests",
+          "Developing Web API backend in C# using .NET 4.5, WebApi 2.0, NUnit and SpecFlow",
+          "Developing frontend using React with Jest, enzyme, flowtype",
+          "Supporting testing task with TestRail and Specflow for integration tests",
           "Working in a continous integration environment with git, VSTS and SonarQube"
         ]
       },
@@ -153,6 +172,18 @@
   "extracurricular": [
     {
       "title": "",
+      "activity": "Azure AZ-203/204 training",
+      "start": "2020-04",
+      "end": "2016-04"
+    },
+    {
+      "title": "",
+      "activity": "Agile training",
+      "start": "2019-06",
+      "end": "2019-06"
+    },
+    {
+      "title": "",
       "activity": "Oracle Database 11g: Performance Tuning",
       "start": "2016-11",
       "end": "2016-11"
@@ -180,14 +211,27 @@
   "skills": {
     "sets": [
       {
+        "name": "Cloud",
+        "level": "Advanced",
+        "skills": [
+          "Azure Service Bus",
+          "Key Vault",
+          "App Insights",
+          "Azure Resource Manager Templates",
+          "Azure Functions"
+        ]
+      },
+      {
         "name": "Backend development",
         "level": "Master",
         "skills": [
           ".NET",
           "C#",
+          "dotnet core",
           "Linq",
           "Entity Framework",
           "MVC",
+          "xUnit",
           "WebApi",
           "NUnit",
           "Specflow"
@@ -223,9 +267,12 @@
         "level": "Master",
         "skills": [
           "git",
+          "Azure DevOps",
+          "TeamCity",
+          "Octopus",
+          "SonarQube",
           "Subversion",
-          "VSTS",
-          "SonarQube"
+          "VSTS"
         ]
       },
       {
