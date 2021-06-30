@@ -3,7 +3,7 @@
   "info": {
     "label": "Full Stack Developer",
     "image": "../resources/JavierCachoBlack.png",
-    "brief": "Full Stack .NET Developer with expertise going through the DevOps path with cloud skills in Azure."
+    "brief": "Cloud Architect and Full Stack Developer with main expertise in dotnet stack focused in Cloud Solutions in Azure and microservices architecture using Kubernetes and Docker."
   },
   "contact": {
     "email": "jjaviercacho@gmail.com",
@@ -12,24 +12,61 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-08-02T00:44:37.793Z"
+    "modified": "2021-06-30T08:00:00.000Z"
   },
   "location": {
-    "city": "Capelle aan den IJssel",
+    "city": "Madrid Area",
     "region": "Europe",
-    "country": "NE",
-    "code": "2903 XE",
-    "address": "Louis Couperusplaats 223"
+    "country": "ES",
+    "code": "37008",
+    "address": "Alcalde Navarro González, 46, 3A"
   },
   "employment": {
     "history": [
+      {
+        "position": "Cloud Architect",
+        "employer": "ENCAMINA - TIBA Group Project",
+        "summary": "Architect a solution for a leading maritime company.",
+        "current": true,
+        "start": "2021-02-01",
+        "end": "",
+        "url": "https://www.encamina.com/en/eneauno-group/",
+        "keywords": [],
+        "highlights": [
+          "Recommend the best architecture -lately Kubernetes and Docker for microservices approach.",
+          "Analyse and review the cloud infrastructure to provide the most cost effective solution.", 
+          "Assess and support implementation of proposed solutions code side in more than 10 APIs.",
+          "Recommend and align the repository structure in Azure DevOps and configure the pipelines.",          
+          "Defining the strategy of Infrastructure as Code using ARM templates.",
+          "Helping with stress testint and with the improvement of the performance for the APIs.",
+          "Helping with pentesting and with APIs adjustment to avoid vulnerabilities",
+          "Engage the 4 development teams into code best practices by providing them purpose oriented documentation and knowledge transfer."
+        ]
+      },
+      {
+        "position": "Cloud Developer",
+        "employer": "ENCAMINA - Ferrovial Project",
+        "summary": "Developing serverless solutions on the Azure cloud for a leading construction company.",
+        "current": true,
+        "start": "2021-02-01",
+        "end": "2021-05-07",
+        "url": "https://www.encamina.com/en/eneauno-group/",
+        "keywords": [],
+        "highlights": [
+          "Design and develoment of a solution using Azure functions to process emails", 
+          "Implementing Restful APIs in dotnet core 3.1 using Graph API",
+          "Proposed and helped with the adoption of GitFlow using Azure DevOps",          
+          "Helping with the troubleshooting and monitoring with Azure Application Insights",
+          "Working with an Agile methodology using Azure DevOps Boards"
+        ]
+      },
       {
         "position": "Senior Full Stack Developer",
         "employer": "Sunweb",
         "summary": "Developing backoffice applications on the Azure cloud for one of the main European touroperators",
         "current": true,
         "start": "2018-02-26",
-        "end": "",
+        "end": "2021-01-31",
         "url": "https://www.sunwebgroup.com/about-us/",
         "keywords": [],
         "highlights": [
