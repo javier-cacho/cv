@@ -34,12 +34,15 @@
         "keywords": [],
         "highlights": [
           "Recommend the best architecture -lately Kubernetes and Docker for microservices approach.",
-          "Analyse and review the cloud infrastructure to provide the most cost effective solution.", 
-          "Assess and support implementation of proposed solutions code side in more than 10 APIs.",
-          "Recommend and align the repository structure in Azure DevOps and configure the pipelines.",          
+          "Analyze and review the cloud infrastructure to provide the most cost effective solution.", 
+          "Analysis and support of more than 20 App services and related infrastructure, including MariaDB, Azure Functions, Queues, App Configuration Service, KeyVault and Application Insights for monitoring.",
           "Defining the strategy of Infrastructure as Code using ARM templates.",
-          "Helping with stress testint and with the improvement of the performance for the APIs.",
-          "Helping with pentesting and with APIs adjustment to avoid vulnerabilities",
+          "Setting up monitoring with application insights and supporting production incidents tracking and mitigation",
+          "Support and implementation of pipelines in Azure DevOps and assesment of deployment lifecycle",
+          "Recommend and align the repository structure in Azure DevOps and configure the pipelines.",          
+          "Help with stress testing with JMeter and with the improvement of the performance for the APIs.",
+          "Help with pentesting and with APIs adjustment to avoid vulnerabilities, like SQL injection",
+          "Implementation of a decoupled messaging solution with an external system using Azure Functions and queues",
           "Engage the 4 development teams into code best practices by providing them purpose oriented documentation and knowledge transfer."
         ]
       },
@@ -53,11 +56,11 @@
         "url": "https://www.encamina.com/en/eneauno-group/",
         "keywords": [],
         "highlights": [
-          "Design and develoment of a solution using Azure functions to process emails", 
-          "Implementing Restful APIs in dotnet core 3.1 using Graph API",
+          "Designed and develoment of a resilient solution using Azure functions and queues", 
+          "Implemented Restful APIs in dotnet core 3.1 using Graph API",
           "Proposed and helped with the adoption of GitFlow using Azure DevOps",          
-          "Helping with the troubleshooting and monitoring with Azure Application Insights",
-          "Working with an Agile methodology using Azure DevOps Boards"
+          "Helped with the troubleshooting and monitoring with Azure Application Insights",
+          "Supported Azure DevOps pipelines and release configuration."
         ]
       },
       {
@@ -208,10 +211,16 @@
   },
   "extracurricular": [
     {
+      "title":"Microsoft Azure Well-Architected Framework",
+      "activity": "5 pilars",
+      "start": "2021-05",
+      "end": "2021-05"
+    },
+    {
       "title":"Azure training",
       "activity": "AZ-203/204",
       "start": "2020-04",
-      "end": "2016-04"
+      "end": "2020-04"
     },
     {
       "title":"Agile training",
