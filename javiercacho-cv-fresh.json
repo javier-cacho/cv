@@ -3,7 +3,7 @@
   "info": {
     "label": "Full Stack Developer",
     "image": "../resources/JavierCachoBlack.png",
-    "brief": "Cloud Architect and Full Stack Developer with main expertise in dotnet stack focused in Cloud Solutions in Azure and microservices architecture using Kubernetes and Docker."
+    "brief": "DevOps engineer and dotnet Full Stack Developer focused in Azure Cloud Solutions"
   },
   "contact": {
     "email": "jjaviercacho@gmail.com",
@@ -24,12 +24,33 @@
   "employment": {
     "history": [
       {
+        "position": "Platform Engineer and Web Developer",
+        "employer": "Freelance at ABN AMRO Bank N.V.",
+        "summary": "Architect and implement and internal solution with dotnet core and Vuejs",
+        "current": true,
+        "start": "2021-09-15",
+        "end": "",
+        "url": "https://www.abnamro.nl/",
+        "keywords": ["financial","Azure DevOps","vuejs","dotnet core", "biceps", "yaml"],
+        "highlights": [
+          "Propose cloud architecture for the solution",
+          "Propose solution languages and technologies aligned with the standards within the bank",
+          "Propose test strategy and mentoring on code quality",
+          "Implement the cloud architecture using IaC with bicep",
+          "Implement the build pipelines using PaC with YAML",
+          "Implement the REST API in dotnet core",
+          "Create unit and composition tests with xUnit, Autofixture and Specflow",
+          "Implement the frontend with Vue.js",
+          "Create unit and E2E tests with jest and test cafe"          
+        ]
+      },
+      {
         "position": "Cloud Architect",
         "employer": "ENCAMINA - TIBA Group Project",
         "summary": "Architect a solution for a leading maritime company.",
         "current": true,
         "start": "2021-05-10",
-        "end": "",
+        "end": "2021-09-31",
         "url": "https://www.encamina.com/en/eneauno-group/",
         "keywords": [],
         "highlights": [
