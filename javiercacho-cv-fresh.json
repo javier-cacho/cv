@@ -6,9 +6,8 @@
     "brief": "DevOps engineer and dotnet Full Stack Developer focused in Azure Cloud Solutions"
   },
   "contact": {
-    "email": "jjaviercacho@gmail.com",
-    "phone": "+34 655 280 032",
-    "website": ""
+    "email": "javier.cacho.r@gmail.com",
+    "phone": "+34 655 280 032"
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
@@ -29,9 +28,7 @@
         "summary": "Architect and implement and internal solution with dotnet core and Vuejs",
         "current": true,
         "start": "2021-09-15",
-        "end": "",
         "url": "https://www.abnamro.nl/",
-        "keywords": ["financial","Azure DevOps","vuejs","dotnet core", "biceps", "yaml"],
         "highlights": [
           "Propose cloud architecture for the solution",
           "Propose solution languages and technologies aligned with the standards within the bank",
@@ -41,7 +38,7 @@
           "Implement the REST API in dotnet core",
           "Create unit and composition tests with xUnit, Autofixture and Specflow",
           "Implement the frontend with Vue.js",
-          "Create unit and E2E tests with jest and test cafe"          
+          "Create unit and E2E tests with jest and test cafe"
         ]
       },
       {
@@ -50,17 +47,17 @@
         "summary": "Architect a solution for a leading maritime company.",
         "current": true,
         "start": "2021-05-10",
-        "end": "2021-09-31",
+        "end": "2021-09-30",
         "url": "https://www.encamina.com/en/eneauno-group/",
         "keywords": [],
         "highlights": [
           "Recommend the best architecture -lately Kubernetes and Docker for microservices approach.",
-          "Analyze and review the cloud infrastructure to provide the most cost effective solution.", 
+          "Analyze and review the cloud infrastructure to provide the most cost effective solution.",
           "Analysis and support of more than 20 App services and related infrastructure, including MariaDB, Azure Functions, Queues, App Configuration Service, KeyVault and Application Insights for monitoring.",
           "Defining the strategy of Infrastructure as Code using ARM templates.",
           "Setting up monitoring with application insights and supporting production incidents tracking and mitigation",
           "Support and implementation of pipelines in Azure DevOps and assesment of deployment lifecycle",
-          "Recommend and align the repository structure in Azure DevOps and configure the pipelines.",          
+          "Recommend and align the repository structure in Azure DevOps and configure the pipelines.",
           "Help with stress testing with JMeter and with the improvement of the performance for the APIs.",
           "Help with pentesting and with APIs adjustment to avoid vulnerabilities, like SQL injection",
           "Implementation of a decoupled messaging solution with an external system using Azure Functions and queues",
@@ -77,9 +74,9 @@
         "url": "https://www.encamina.com/en/eneauno-group/",
         "keywords": [],
         "highlights": [
-          "Designed and develoment of a resilient solution using Azure functions and queues", 
+          "Designed and develoment of a resilient solution using Azure functions and queues",
           "Implemented Restful APIs in dotnet core 3.1 using Graph API",
-          "Proposed and helped with the adoption of GitFlow using Azure DevOps",          
+          "Proposed and helped with the adoption of GitFlow using Azure DevOps",
           "Helped with the troubleshooting and monitoring with Azure Application Insights",
           "Supported Azure DevOps pipelines and release configuration."
         ]
@@ -94,7 +91,7 @@
         "url": "https://www.sunwebgroup.com/about-us/",
         "keywords": [],
         "highlights": [
-          "Developing microservices communicating through Azure Service Bus using dotnet core 3.1, XUnit and SpecFlow",          
+          "Developing microservices communicating through Azure Service Bus using dotnet core 3.1, XUnit and SpecFlow",
           "Developing of frontend using Angular, and Stencil (Web Components)",
           "Maintainance of some of the build pipelines in Azure DevOps",
           "Maintainance of the build pipelines in Team City and the deployment with Octopus",
@@ -206,10 +203,10 @@
     "history": [
       {
         "institution": "University of Salamanca",
-        "title":"BSc (Hons) in Business Administration",
+        "title": "BSc (Hons) in Business Administration",
         "start": "2003-09",
         "end": "2005-02",
-        "url":"http: //www.usal.es/en",
+        "url": "http: //www.usal.es/en",
         "grade": "",
         "curriculum": [],
         "summary": "",
@@ -219,10 +216,10 @@
       {
         "institution": "University of Salamanca",
         "url": "http: //www.usal.es/en",
-        "title":"3-Year Degree in Business",
+        "title": "3-Year Degree in Business",
         "start": "2000-09",
         "end": "2002-06",
-        "grade":"",
+        "grade": "",
         "curriculum": [],
         "summary": "",
         "area": "Business Administration",
@@ -232,78 +229,71 @@
   },
   "extracurricular": [
     {
-      "title":"Microsoft Azure Well-Architected Framework",
+      "title": "Microsoft Azure Well-Architected Framework",
       "activity": "5 pilars",
       "start": "2021-05",
       "end": "2021-05"
     },
     {
-      "title":"Azure training",
+      "title": "Azure training",
       "activity": "AZ-203/204",
       "start": "2020-04",
       "end": "2020-04"
     },
     {
-      "title":"Agile training",
+      "title": "Agile training",
       "activity": "Scrum",
       "start": "2019-06",
       "end": "2019-06"
     },
     {
-      "title":"Database training",
+      "title": "Database training",
       "activity": "Oracle Database 11g: Performance Tuning",
       "start": "2016-11",
       "end": "2016-11"
     },
     {
-      "title":"Mobile Development",
+      "title": "Mobile Development",
       "activity": "Development and design of Android applications",
       "start": "2012-12",
       "end": "2013-06"
     },
     {
-      "title":"Java Development",
+      "title": "Java Development",
       "activity": "Java Programmer and Application Developer",
       "start": "2010-12",
       "end": "2011-05"
     },
     {
-      "title":".NET Development",
+      "title": ".NET Development",
       "activity": "Programming Analyst",
       "start": "2009-09",
       "end": "2010-02"
     }
-  ]
-  ,
+  ],
   "skills": {
     "sets": [
       {
         "name": "Cloud",
         "level": "Advanced",
         "skills": [
-          "Kubernetes",
-          "Docker",
+          "IaC",
+          "Azure Resource Manager - Bicep",
           "Azure Service Bus",
           "Key Vault",
           "App Insights",
-          "Azure Resource Manager Templates",
-          "Azure Functions",
-          "Azure Artificial Intelligence"
+          "Azure Functions"
         ]
       },
       {
         "name": "Backend development",
         "level": "Master",
         "skills": [
-          ".NET",
-          "C#",
           "dotnet core",
-          "Linq",
-          "Entity Framework",
-          "MVC",
+          "REST API",
+          "C#",
+          "Entity Framework Core",
           "xUnit",
-          "WebApi",
-          "NUnit",
           "Specflow"
         ]
       },
@@ -312,14 +302,10 @@
         "level": "Master",
         "skills": [
           "React",
+          "Vuejs",
           "Jest",
-          "enzyme",
-          "Formik",
-          "Bootstrap",
           "HTML",
-          "CSS",
-          "JQuery",
-          "Javascript"
+          "CSS"
         ]
       },
       {
@@ -327,17 +313,20 @@
         "level": "Master",
         "skills": [
           "T-SQL",
-          "PL-SQL",
           "SQL Server",
-          "Oracle"
+          "MariaDB",
+          "CosmosDB"
         ]
       },
       {
         "name": "DevOps",
         "level": "Master",
         "skills": [
-          "git",
           "Azure DevOps",
+          "bicep-ARM",
+          "IaC",
+          "PaC",
+          "git",
           "TeamCity",
           "Octopus",
           "SonarQube",
