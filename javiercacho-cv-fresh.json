@@ -26,7 +26,7 @@
       {
         "position": "Platform Engineer and Web Developer",
         "employer": "Freelance at ABN AMRO Bank N.V.",
-        "summary": "Architect and implement and internal solution with dotnet core and Vuejs",
+        "summary": "Propose and implement an internal solution with dotnet core and Vuejs",
         "current": true,
         "start": "2021-09-15",
         "end": "",
@@ -41,7 +41,8 @@
           "Implement the REST API in dotnet core",
           "Create unit and composition tests with xUnit, Autofixture and Specflow",
           "Implement the frontend with Vue.js",
-          "Create unit and E2E tests with jest and test cafe"          
+          "Create unit and E2E tests with jest and test cafe",
+          "Support Azure Data Factory pipelines creation and maintenance" 
         ]
       },
       {
