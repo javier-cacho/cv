@@ -25,7 +25,7 @@
       {
         "position": "Platform Engineer and Web Developer",
         "employer": "Freelance at ABN AMRO Bank N.V.",
-        "summary": "Architect and implement and internal solution with dotnet core and Vuejs",
+        "summary": "Propose and implement an internal solution with dotnet core and Vuejs",
         "current": true,
         "start": "2021-09-15",
         "url": "https://www.abnamro.nl/",
@@ -38,7 +38,8 @@
           "Implement the REST API in dotnet core",
           "Create unit and composition tests with xUnit, Autofixture and Specflow",
           "Implement the frontend with Vue.js",
-          "Create unit and E2E tests with jest and test cafe"
+          "Create unit and E2E tests with jest and test cafe",
+          "Support Azure Data Factory pipelines creation and maintenance" 
         ]
       },
       {
@@ -277,12 +278,10 @@
         "name": "Cloud",
         "level": "Advanced",
         "skills": [
-          "IaC",
-          "Azure Resource Manager - Bicep",
+          "Azure",
           "Azure Service Bus",
-          "Key Vault",
-          "App Insights",
-          "Azure Functions"
+          "Azure Functions",
+          "Azure API Manager"
         ]
       },
       {
