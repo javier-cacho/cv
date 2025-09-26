@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Javier Cacho</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <style>
+            html, body, main, section, header, ul, p, h1, h2, h3 {
+              font-family: 'Open Sans', 'sans-serif';
+              font-size: 14px;
+              line-height: 1.4;
+              margin: 0; padding: 0;
+              display: block;
+            }
+            
+            ::selection {
+              color: #fff;
+              background: #e48a8a; /* WebKit/Blink Browsers */
+            }
+            ::-moz-selection {
+              color: #fff;
+              background: #e48a8a; /* Gecko Browsers */
+            }
+            
+            p::selection {
+              color: #fff;
+            }
+            
+            a {
+              color: #C00000;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: #7B0796;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            h1 {
+              text-transform: uppercase;
+              font-size:
+            }
+            
+            h2 {
+              text-transform: uppercase;
+              color: #898989;
+              font-size: 2em;
+              position: relative;
+              font-weight: 400;
+            }
+            
+            h3, .tenure {
+              font-size: 1.5em;
+              font-weight: 400;
+            }
+            
+            h3 {
+              margin-top: 0;
+              margin-bottom: 5px;
+              /*width: 85%;*/
+              float: left;
+            }
+            
+            table {
+              width: 100%;
+              text-transform: uppercase;
+            }
+            
+            td:first-child {
+              letter-spacing: 2px;
+              color: #bd5b5b;
+              font-size: 20px;
+            }
+            
+            td:last-child {
+              text-align: justify; /* HTML justification sucks, but in this case... */
+            }
+            
+            hr {
+              display: none;
+            }
+            
+            main {
+              padding: 15px;
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            section {
+              margin-top: 2em;
+            }
+            
+            section > div {
+              margin-top: 2em;
+              overflow: hidden; /* Clear floated children */
+            }
+            
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+            }
+            
+            p + ul {
+              margin: 1em;
+            }
+            
+            ul {
+              clear: both;
+            }
+            
+            li {
+              margin-left: 2em;
+            }
+            
+            p, li {
+              text-align: justify;
+            }
+            
+            .tenure {
+              float: right;
+              color: #6F6F6F;
+              background-color: #F5F5F5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            .location {
+              border: #e2aaaa dashed 1px;
+              background-color: #ffffff;
+              padding: 3px 6px;
+              border-radius: 6px;
+              float: right;
+              margin-right: 5px;
+              float: right;
+              font-size: 85%;
+              color: #717171;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            span.keywords {
+              font-size: 12px;
+              color: #B16666;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            main > header {
+              width: 100%;
+              float: left;
+              margin-bottom: 1em;
+            }
+            
+            h1 {
+              float: left;
+            }
+            
+            h1, h2, .label {
+              font-size: 2.5em;
+              text-transform: uppercase;
+              font-weight: 300;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
+            }
+            
+            #contact {
+             clear: both;
+             float: right;
+             margin-top: 2px;
+            }
+            
+            #contact span + span {
+              margin-left: 10px;
+            }
+            
+            header > span.fa {
+              text-align: center;
+              margin-right: 3px;
+              position: absolute;
+              width: 40px;
+              top: 14px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
+              color: #DADADA;
+            }
+            
+            .label {
+              float: right;
+              color: #DADADA;
+            }
+            
+            #summary {
+              color: #717171;
+              font-size: 1.25em;
+              margin-top: 6em;
+            }
+            
+            #skills td {
+              padding-top: 7px;
+              padding-bottom: 7px;
+            }
+            
+            #references > p, #references > p > a {
+              color: #961e1e;
+              text-align: center;
+              margin: 30px;
+              font-weight: bold;
+              letter-spacing: 2px;
+              text-transform: uppercase;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                 <h1>Javier <span style="color: #C00000;">Cacho</span></h1> <span class="label">Full Stack Developer</span>
+                <p id="contact"> <span class="email"><a href="mailto:jjaviercacho@gmail.com">jjaviercacho@gmail.com</a></span>
+                    <span
+                    class="phone">+34 655 280 032</span>
+                </p>
+            </header>
+            <section id="summary">Cloud Architect and Full Stack Developer with main expertise in dotnet
+                stack focused in Cloud Solutions in Azure and microservices architecture
+                using Kubernetes and Docker.</section>
+            <hr>
+            <section id="skills">
+                <header> <span class="fa fa-lg fa-code"></span> 
+                     <h2>skills</h2>
+
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width: 25%;">Cloud</td>
+                            <td class="keywords">Kubernetes Docker Azure Service Bus Key Vault App Insights Azure Resource
+                                Manager Templates Azure Functions Azure Artificial Intelligence</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Backend development</td>
+                            <td class="keywords">.NET C# dotnet core Linq Entity Framework MVC xUnit WebApi NUnit Specflow</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Frontend development</td>
+                            <td class="keywords">React Jest enzyme Formik Bootstrap HTML CSS JQuery Javascript</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Database</td>
+                            <td class="keywords">T-SQL PL-SQL SQL Server Oracle</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">DevOps</td>
+                            <td class="keywords">git Azure DevOps TeamCity Octopus SonarQube Subversion VSTS</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Methodologies</td>
+                            <td class="keywords">Scrum Kamban JIRA</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">IDEs</td>
+                            <td class="keywords">Visual Studio Visual Studio Code Eclipse</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-lg fa-building"></span> 
+                     <h2>employment</h2>
+
+                </header>
+                <div>
+                     <h3><em>Cloud Architect</em>,
+
+              <a href="https://www.encamina.com/en/eneauno-group/">ENCAMINA - TIBA Group Project</a>
+
+              </h3> <span class="tenure">2021-05 — Present</span>
+                    <p>
+                        <p>Architect a solution for a leading maritime company.</p>
+                    </p>
+                    <ul>
+                        <li>Recommend the best architecture -lately Kubernetes and Docker for microservices
+                            approach.</li>
+                        <li>Analyze and review the cloud infrastructure to provide the most cost effective
+                            solution.</li>
+                        <li>Analysis and support of more than 20 App services and related infrastructure,
+                            including MariaDB, Azure Functions, Queues, App Configuration Service,
+                            KeyVault and Application Insights for monitoring.</li>
+                        <li>Defining the strategy of Infrastructure as Code using ARM templates.</li>
+                        <li>Setting up monitoring with application insights and supporting production
+                            incidents tracking and mitigation</li>
+                        <li>Support and implementation of pipelines in Azure DevOps and assesment
+                            of deployment lifecycle</li>
+                        <li>Recommend and align the repository structure in Azure DevOps and configure
+                            the pipelines.</li>
+                        <li>Help with stress testing with JMeter and with the improvement of the performance
+                            for the APIs.</li>
+                        <li>Help with pentesting and with APIs adjustment to avoid vulnerabilities,
+                            like SQL injection</li>
+                        <li>Implementation of a decoupled messaging solution with an external system
+                            using Azure Functions and queues</li>
+                        <li>Engage the 4 development teams into code best practices by providing them
+                            purpose oriented documentation and knowledge transfer.</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Cloud Developer</em>,
+
+              <a href="https://www.encamina.com/en/eneauno-group/">ENCAMINA - Ferrovial Project</a>
+
+              </h3> <span class="tenure">2021-02 — 2021-05</span>
+                    <p>
+                        <p>Developing serverless solutions on the Azure cloud for a leading construction
+                            company.</p>
+                    </p>
+                    <ul>
+                        <li>Designed and develoment of a resilient solution using Azure functions
+                            and queues</li>
+                        <li>Implemented Restful APIs in dotnet core 3.1 using Graph API</li>
+                        <li>Proposed and helped with the adoption of GitFlow using Azure DevOps</li>
+                        <li>Helped with the troubleshooting and monitoring with Azure Application
+                            Insights</li>
+                        <li>Supported Azure DevOps pipelines and release configuration.</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Senior Full Stack Developer</em>,
+
+              <a href="https://www.sunwebgroup.com/about-us/">Sunweb</a>
+
+              </h3> <span class="tenure">2018-02 — 2021-01</span>
+                    <p>
+                        <p>Developing backoffice applications on the Azure cloud for one of the main
+                            European touroperators</p>
+                    </p>
+                    <ul>
+                        <li>Developing microservices communicating through Azure Service Bus using
+                            dotnet core 3.1, XUnit and SpecFlow</li>
+                        <li>Developing of frontend using Angular, and Stencil (Web Components)</li>
+                        <li>Maintainance of some of the build pipelines in Azure DevOps</li>
+                        <li>Maintainance of the build pipelines in Team City and the deployment with
+                            Octopus</li>
+                        <li>Creation of ARM templates for Azure services</li>
+                        <li>Monitoring cloud services using New Relic and Kibana</li>
+                        <li>Working with an Agile methodology using JIRA</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Senior Full Stack Developer</em>,
+
+              <a href="https://www.everyangle.com/">Every Angle - Magnitude</a>
+
+              </h3> <span class="tenure">2018-02 — Present</span>
+                    <p>
+                        <p>Developing a key product for empower business analyticis for SAP</p>
+                    </p>
+                    <ul>
+                        <li>Working in a dynamic environment usint Scrum and with the administration
+                            done in JIRA</li>
+                        <li>Developing Web API backend in C# using .NET 4.5, WebApi 2.0, NUnit and
+                            SpecFlow</li>
+                        <li>Developing frontend using React with Jest, enzyme, flowtype</li>
+                        <li>Supporting testing task with TestRail and Specflow for integration tests</li>
+                        <li>Working in a continous integration environment with git, VSTS and SonarQube</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Senior Full Stack Developer and Team Leader</em>,
+
+              <a href="http: //www.indracompany.com/">Indra Software Labs - Aktua Project</a>
+
+              </h3> <span class="tenure">2016-01 — 2018-02</span>
+                    <p>
+                        <p>Developing and maintaining several .NET applications and SQL ETL processes</p>
+                    </p>
+                    <ul>
+                        <li>Working as a Team Leader for a small team</li>
+                        <li>Development and maintenance of .NET multilayered web application in C#,
+                            with Linq and Entity Framework</li>
+                        <li>Development of RESTful API for the multilayered application</li>
+                        <li>Development and maintenance of a classic ASP.NET application web application</li>
+                        <li>Support for a MVC web application</li>
+                        <li>Development of ETL scripts for data transfer between interrelated systems
+                            using SQL Server 2012</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Senior Full Stack Developer</em>,
+
+              <a href="http: //www.indracompany.com/">Indra Software Labs - Gamesa Project</a>
+
+              </h3> <span class="tenure">2015-05 — 2016-01</span>
+                    <p>
+                        <p>Developing a .NET application with javascript in the frontend</p>
+                    </p>
+                    <ul>
+                        <li>Team working with Scrum methodology and JIRA for administration</li>
+                        <li>Development of a .NET application for handling windfarms, with Unity as
+                            IoC, MEF as Service provider and Entity Framework for connecting a lightweight
+                            SQLLite database</li>
+                        <li>Development of the frontend of the application using javascript and JQuery</li>
+                        <li>Development of windows services serving the application</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Senior Full Stack Developer</em>,
+
+              <a href="http://www.riafinancial.com">Ria Financial Services, SAU</a>
+
+              </h3> <span class="tenure">2015-02 — 2015-05</span>
+                    <p>
+                        <p>Data analytics and .NET support</p>
+                    </p>
+                    <ul>
+                        <li>Development for automatically generate an incentive policy from specific
+                            parameters.</li>
+                        <li>Support of a Web API for serve content</li>
+                        <li>Support of an MVC application</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Programming Analyst and Team Leader</em>,
+
+              <a href="http://www.colt.net">Colt Technology Services, SAU</a>
+
+              </h3> <span class="tenure">2011-05 — 2014-07</span>
+                    <p>
+                        <p>Maintenance of a internal CMDB Web Application and development of a MVC
+                            application from scratch</p>
+                    </p>
+                    <ul>
+                        <li>Requirements gathering and analysis from the stakeholders</li>
+                        <li>Design and Development of a MVC application from scratch using .NET framework,
+                            with SQL Server 2008 as database and Entity Framework, Razor and C#</li>
+                        <li>Frontend development with HTML5, CSS3 and JQuery</li>
+                        <li>Team Leader for a small team</li>
+                        <li>Development and maintenancde of an internal CMDB system using .NET ans
+                            SQL Server</li>
+                        <li>Architectonic design and implementation of the development environment
+                            including the Version Control System –Subversion</li>
+                        <li>Worked with an international team for integrating the system with Oracle-Siebel</li>
+                        <li>Support to Business creating customize reports through reporting services</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Programming Analyst</em>,
+
+              <a href="http://www.colt.net">12 de Octubre Hospital</a>
+
+              </h3> <span class="tenure">2010-12 — 2011-06</span>
+                    <p>
+                        <p>Freelance Programmer Analyst, I took care of requirements elicitation,
+                            data model design and first iteration development for a clinical research
+                            named NEDICES2</p>
+                    </p>
+                    <ul>
+                        <li>Requirements specification, analysis and design of a survey application
+                            for Clinical Research</li>
+                        <li>Prototype Proposal together with web hosting solution</li>
+                        <li>Support for a client solution</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section id="education">
+                <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                     <h2>education</h2>
+
+                </header>
+                <div>
+                     <h3><em>BSc (Hons) in Business Administration</em>, University of Salamanca</h3> <span class="tenure">2003-09 — 2005-02</span>
+                </div>
+                <div>
+                     <h3><em>3-Year Degree in Business</em>, University of Salamanca</h3> <span class="tenure">2000-09 — 2002-06</span>
+                </div>
+            </section>
+            <hr>
+            <section id="extracurricular">
+                <header> <span class="fa fa-lg fa-child"></span> 
+                     <h2>extracurricular</h2>
+
+                </header>
+                <div>
+                     <h3><em>Microsoft Azure Well-Architected Framework</em>,
+
+              5 pilars
+
+              </h3> <span class="tenure">2021-05</span>
+                    <p></p>
+                </div>
+                <div>
+                     <h3><em>Azure training</em>,
+
+              AZ-203/204
+
+              </h3> <span class="tenure">2020-04</span>
+                    <p></p>
+                </div>
+                <div>
+                     <h3><em>Agile training</em>,
+
+              Scrum
+
+              </h3> <span class="tenure">2019-06</span>
+                    <p></p>
+                </div>
+                <div>
+                     <h3><em>Database training</em>,
+
+              Oracle Database 11g: Performance Tuning
+
+              </h3> <span class="tenure">2016-11</span>
+                    <p></p>
+                </div>
+                <div>
+                     <h3><em>Mobile Development</em>,
+
+              Development and design of Android applications
+
+              </h3> <span class="tenure">2012-12 — 2013-06</span>
+                    <p></p>
+                </div>
+                <div>
+                     <h3><em>Java Development</em>,
+
+              Java Programmer and Application Developer
+
+              </h3> <span class="tenure">2010-12 — 2011-05</span>
+                    <p></p>
+                </div>
+                <div>
+                     <h3><em>.NET Development</em>,
+
+              Programming Analyst
+
+              </h3> <span class="tenure">2009-09 — 2010-02</span>
+                    <p></p>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>

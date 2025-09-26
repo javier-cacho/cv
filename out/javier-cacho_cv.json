@@ -1,0 +1,315 @@
+{
+  "basics": {
+    "label": "DevOps Lead and Full Stack Developer",
+    "email": "javier.cacho.r@gmail.com",
+    "phone": "+34 655 280 032",
+    "name": "J. Javier Cacho",
+    "summary": "DevOps Leader, Scrum Master and Full Stack Developer",
+    "picture": "../resources/JavierCachoBlack.png",
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Serco",
+      "website": "https://www.serco.com/",
+      "position": "DevOps Leader, Scrum Master and Full Stack Developer",
+      "startDate": "2023-01-10",
+      "summary": "Leading DevOps and development for multiple internal applications",
+      "highlights": [
+        "Led Scrum adoption and KPI tracking using data analysis",
+        "Implemented Scrum methodology with data-driven KPI analysis",
+        "Established DevOps strategy and automated CI/CD pipelines",
+        "Designed and developed full-stack internal application (React, .NET Core, SQL Server)",
+        "Built ETL solutions for multiple data sources (Oracle, MySQL, GraphQL, Azure)",
+        "Supported Tableau/Power BI reporting and T-SQL optimization",
+        "Maintained legacy applications (ASP.NET Framework, Java)",
+        "Advised on hybrid cloud solutions with Azure integration"
+      ]
+    },
+    {
+      "company": "Freelancer at ABN AMRO Bank N.V.",
+      "website": "https://www.abnamro.nl/",
+      "position": "Platform Engineer and Web Developer",
+      "startDate": "2021-09-15",
+      "endDate": "2022-12-21",
+      "summary": "Propose and implement an internal solution with dotnet core and Vuejs",
+      "highlights": [
+        "Propose cloud architecture for the solution",
+        "Propose solution languages and technologies aligned with the standards within the bank",
+        "Propose test strategy and mentoring on code quality",
+        "Implement the cloud architecture using IaC with bicep",
+        "Implement the build pipelines using PaC with YAML",
+        "Implement the REST API in dotnet core",
+        "Create unit and composition tests with xUnit, Autofixture and Specflow",
+        "Implement the frontend with Vue.js",
+        "Create unit and E2E tests with jest and test cafe",
+        "Support Azure Data Factory pipelines creation and maintenance"
+      ]
+    },
+    {
+      "company": "ENCAMINA - TIBA Group Project",
+      "website": "https://www.encamina.com/en/eneauno-group/",
+      "position": "Cloud Architect",
+      "startDate": "2021-05-10",
+      "endDate": "2021-09-30",
+      "summary": "Architect a solution for a leading maritime company.",
+      "highlights": [
+        "Recommend the best architecture -lately Kubernetes and Docker for microservices approach.",
+        "Analyze and review the cloud infrastructure to provide the most cost effective solution.",
+        "Analysis and support of more than 20 App services and related infrastructure, including MariaDB, Azure Functions, Queues, App Configuration Service, KeyVault and Application Insights for monitoring.",
+        "Defining the strategy of Infrastructure as Code using ARM templates.",
+        "Setting up monitoring with application insights and supporting production incidents tracking and mitigation",
+        "Support and implementation of pipelines in Azure DevOps and assesment of deployment lifecycle",
+        "Recommend and align the repository structure in Azure DevOps and configure the pipelines.",
+        "Help with stress testing with JMeter and with the improvement of the performance for the APIs.",
+        "Help with pentesting and with APIs adjustment to avoid vulnerabilities, like SQL injection",
+        "Implementation of a decoupled messaging solution with an external system using Azure Functions and queues",
+        "Engage the 4 development teams into code best practices by providing them purpose oriented documentation and knowledge transfer."
+      ]
+    },
+    {
+      "company": "ENCAMINA - Ferrovial Project",
+      "website": "https://www.encamina.com/en/eneauno-group/",
+      "position": "Cloud Developer",
+      "startDate": "2021-02-01",
+      "endDate": "2021-05-07",
+      "summary": "Developing serverless solutions on the Azure cloud for a leading construction company.",
+      "highlights": [
+        "Designed and develoment of a resilient solution using Azure functions and queues",
+        "Implemented Restful APIs in dotnet core 3.1 using Graph API",
+        "Proposed and helped with the adoption of GitFlow using Azure DevOps",
+        "Helped with the troubleshooting and monitoring with Azure Application Insights",
+        "Supported Azure DevOps pipelines and release configuration."
+      ]
+    },
+    {
+      "company": "Sunweb",
+      "website": "https://www.sunwebgroup.com/about-us/",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2018-02-26",
+      "endDate": "2021-01-31",
+      "summary": "Developing backoffice applications on the Azure cloud for one of the main European touroperators",
+      "highlights": [
+        "Developing microservices communicating through Azure Service Bus using dotnet core 3.1, XUnit and SpecFlow",
+        "Developing of frontend using Angular, and Stencil (Web Components)",
+        "Maintenance of some of the build pipelines in Azure DevOps",
+        "Maintenance of the build pipelines in Team City and the deployment with Octopus",
+        "Creation of ARM templates for Azure services",
+        "Monitoring cloud services using New Relic and Kibana",
+        "Working with an Agile methodology using JIRA"
+      ]
+    },
+    {
+      "company": "Every Angle - Magnitude",
+      "website": "https://www.everyangle.com/",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2018-02-26",
+      "endDate": "",
+      "summary": "Developing a key product for empower business analyticis for SAP",
+      "highlights": [
+        "Working in a dynamic environment usint Scrum and with the administration done in JIRA",
+        "Developing Web API backend in C# using .NET 4.5, WebApi 2.0, NUnit and SpecFlow",
+        "Developing frontend using React with Jest, enzyme, flowtype",
+        "Supporting testing task with TestRail and Specflow for integration tests",
+        "Working in a continous integration environment with git, VSTS and SonarQube"
+      ]
+    },
+    {
+      "company": "Indra Software Labs - Aktua Project",
+      "website": "http: //www.indracompany.com/",
+      "position": "Senior Full Stack Developer and Team Leader",
+      "startDate": "2016-01-01",
+      "endDate": "2018-02-10",
+      "summary": "Developing and maintaining several .NET applications and SQL ETL processes",
+      "highlights": [
+        "Working as a Team Leader for a small team",
+        "Development and maintenance of .NET multilayered web application in C#, with Linq and Entity Framework",
+        "Development of RESTful API for the multilayered application",
+        "Development and maintenance of a classic ASP.NET application web application",
+        "Support for a MVC web application",
+        "Development of ETL scripts for data transfer between interrelated systems using SQL Server 2012"
+      ]
+    },
+    {
+      "company": "Indra Software Labs - Gamesa Project",
+      "website": "http: //www.indracompany.com/",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2015-05-04",
+      "endDate": "2016-01-01",
+      "summary": "Developing a .NET application with javascript in the frontend",
+      "highlights": [
+        "Team working with Scrum methodology and JIRA for administration",
+        "Development of a .NET application for handling windfarms, with Unity as IoC, MEF as Service provider and Entity Framework for connecting a lightweight SQLLite database",
+        "Development of the frontend of the application using javascript and JQuery",
+        "Development of windows services serving the application"
+      ]
+    },
+    {
+      "company": "Ria Financial Services, SAU",
+      "website": "http://www.riafinancial.com",
+      "position": "Senior Full Stack Developer",
+      "startDate": "2015-02-01",
+      "endDate": "2015-05-01",
+      "summary": "Data analytics and .NET support",
+      "highlights": [
+        "Development for automatically generate an incentive policy from specific parameters.",
+        "Support of a Web API for serve content",
+        "Support of an MVC application"
+      ]
+    },
+    {
+      "company": "Colt Technology Services, SAU",
+      "website": "http://www.colt.net",
+      "position": "Programming Analyst and Team Leader",
+      "startDate": "2011-05-30",
+      "endDate": "2014-07-01",
+      "summary": "Maintenance of a internal CMDB Web Application and development of a MVC application from scratch",
+      "highlights": [
+        "Requirements gathering and analysis from the stakeholders",
+        "Design and Development of a MVC application from scratch using .NET framework, with SQL Server 2008 as database and  Entity Framework, Razor and C#",
+        "Frontend development with HTML5, CSS3 and JQuery",
+        "Team Leader for a small team",
+        "Development and maintenancde of an internal CMDB system using .NET ans SQL Server",
+        "Architectonic design and implementation of the development environment including the Version Control System –Subversion",
+        "Worked with an international team for integrating the system with Oracle-Siebel",
+        "Support to Business creating customize reports through reporting services"
+      ]
+    },
+    {
+      "company": "12 de Octubre Hospital",
+      "website": "http://www.colt.net",
+      "position": "Programming Analyst",
+      "startDate": "2010-12-01",
+      "endDate": "2011-06-01",
+      "summary": "Freelance Programmer Analyst, I took care of requirements elicitation, data model design and first iteration development for a clinical research named NEDICES2",
+      "highlights": [
+        "Requirements specification, analysis and design of a survey application for Clinical Research",
+        "Prototype Proposal together with web hosting solution",
+        "Support for a client solution"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Salamanca",
+      "gpa": "",
+      "courses": [],
+      "startDate": "2003-09",
+      "endDate": "2005-02",
+      "area": "Business",
+      "studyType": ""
+    },
+    {
+      "institution": "University of Salamanca",
+      "gpa": "",
+      "courses": [],
+      "startDate": "2000-09",
+      "endDate": "2002-06",
+      "area": "Business Administration",
+      "studyType": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Leading",
+        "Azure DevOps",
+        "GitLab CI/CD",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "level": "Advanced",
+      "keywords": [
+        "Azure",
+        "Azure Service Bus",
+        "Azure Functions",
+        "Azure API Manager",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Backend development",
+      "level": "Master",
+      "keywords": [
+        "dotnet core",
+        "C#",
+        "REST API",
+        "Entity Framework Core",
+        "xUnit",
+        "Specflow"
+      ]
+    },
+    {
+      "name": "Frontend development",
+      "level": "Master",
+      "keywords": [
+        "React",
+        "Vuejs",
+        "Jest",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Master",
+      "keywords": [
+        "T-SQL",
+        "SQL Server",
+        "Oracle 11g",
+        "MySQL",
+        "MariaDB",
+        "CosmosDB"
+      ]
+    },
+    {
+      "name": "Methodologies",
+      "level": "Master",
+      "keywords": [
+        "Agile",
+        "Scrum",
+        "JIRA"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Running",
+        "Biking"
+      ]
+    },
+    {
+      "name": "Playing guitar",
+      "keywords": [
+        "Music"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Business level"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ]
+}
